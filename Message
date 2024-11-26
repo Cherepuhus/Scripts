@@ -1,0 +1,8 @@
+local StarterGui = game:GetService("StarterGui")
+
+-- Показываем простое сообщение
+StarterGui:SetCore("SendNotification", {
+	Title = "Message", -- Заголовок
+	Text = "Example", -- Текст сообщения
+	Duration = 5, -- Сколько секунд будет видно сообщение
+})
